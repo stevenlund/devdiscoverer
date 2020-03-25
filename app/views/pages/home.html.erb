@@ -1,0 +1,8 @@
+<h1>Dev DiscovereR</h1>
+<p>Find me in app/views/pages/home.html.erb</p>
+<% @developers.each do |developer| %>
+<%= developer.name %>
+<% end %>
+
+<h3>Find a developer perfect for your organization!</h3>
+<%= link_to 'Search', new_developer_path %>

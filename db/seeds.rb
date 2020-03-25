@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+puts 'Creating developers...'
+
+Developer.create!({
+  name: "Steven Lund",
+  location: "Mesa, Arizona"
+})
+
+puts 'Finished!'

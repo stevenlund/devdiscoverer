@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @feature.name %>
+</p>
+
+
+<%= link_to 'Edit', edit_developer_feature_path(@feature.developer, @feature) %> |
+<%= link_to 'Back', developer_features_path(@feature.developer) %>
